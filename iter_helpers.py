@@ -1,6 +1,7 @@
 import numpy as np
 
-M1 = np.array([[3, 6, 9], [5, -10, 15], [4,8,12]])
-M2 = M1.transpose()
+expected = np.array([[1, 2], [-1, 3]])
+actual = expected.transpose()
 
-print(M2)
+print(actual)
+
